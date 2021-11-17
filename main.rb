@@ -10,6 +10,7 @@ def menu
   puts '1: Enter git command'.colorize(:green)
   puts '2: Exit'.colorize(:red)
   choice = gets.to_i
+  # binding.pry
   case choice
   when 1
     puts 'Enter git command'.colorize(:yellow)
