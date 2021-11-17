@@ -7,7 +7,7 @@ def puts_git(cmd)
 end
 
 def menu
-  puts '1: Enter git command'.colorize(:green)
+  puts '1: Enter git command plz'.colorize(:cyan)
   puts '2: Exit'.colorize(:red)
   choice = gets.to_i
   # binding.pry
