@@ -8,7 +8,7 @@ end
 
 def menu
   puts '1: Enter git command plz'.colorize(:cyan)
-  puts '2: Exit'.colorize(:red)
+  puts '2: Exit'.colorize(:green)
   choice = gets.to_i
   # binding.pry
   case choice
